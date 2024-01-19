@@ -1,0 +1,27 @@
+{
+  "name": "planer",
+  "version": "1.0.0",
+  "description": "A simple library to estimate a plane from a set of points",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-Val/NPM-Packages.git#main"
+  },
+  "author": "DryValley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-Val/NPM-Packages/issues"
+  },
+  "homepage": "https://github.com/Mike-Val/NPM-Packages/tree/main/Planer#readme",
+  "dependencies": {
+    "ml-pca": "^4.1.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "typescript": "^5.3.3"
+  }
+}
