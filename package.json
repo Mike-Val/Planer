@@ -4,6 +4,17 @@
   "description": "A simple library to estimate a plane from a set of points",
   "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
@@ -19,14 +30,17 @@
   },
   "homepage": "https://github.com/Mike-Val/NPM-Packages/tree/main/#readme",
   "dependencies": {
-    "ml-pca": "^4.1.1",
-    "three": "^0.186.1"
+    "ml-pca": "^4.1.1"
+  },
+  "peerDependencies": {
+    "three": ">=0.160.0 <1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/three": "^0.186.0",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.14",
+    "three": "^0.186.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
