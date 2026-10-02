@@ -1,6 +1,6 @@
 import { describe, test, expect } from '@jest/globals';
 import { Vector3, Plane } from 'three';
-import { findPlane, PlaneResult } from '../src/index';
+import { findPlane, PlaneResult } from '../src/index.js';
 
 describe('findPlane', () => {
     const coplanarPoints = [
